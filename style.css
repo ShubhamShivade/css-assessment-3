@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:grey;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.borderbox{
+    border: 5px solid red;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: purple 8px 8px 4px;
+    
+}
+
+#container1{
+
+    display: block;
+    align-items: center;
+    margin: 5px;
+
+
+}
+.box{
+    text-shadow: 1px .01px 0.6px purple;  
+    display: block; 
+    color: rgba(116, 0, 116, 0.733);
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    height: 100px;
+    width: 360px;
+    padding: 7px;
+    margin-left: 470px;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 60px;
+    left: 480px;
+    display: flex;
+    border:6px solid red ;
+    border-radius: 12px;
+    color: rgb(185, 6, 6);
+    background-color: rgb(115, 255, 115);
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: purple 8px 8px 4px;
+}
+.offer{
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.discount{
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+hr{
+    color: white;
+    margin-bottom: 4px;
+}
+
+#container2{
+    border: 6px solid green;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    display: block;
+}
+#top{
+    display: flex;
+}
+#bottom{
+    display: flex;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+img{
+    height: 136px;
+    padding: 10px;
+    padding-top: 23px;
+}
+
+.box1{
+    height: 181px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    line-height: 36px;
+    font-weight: bolder;
+    color: rgb(47, 0, 80);
+    text-shadow: 1px 2.01px 1.6px purple;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+
+
+}
+.box2{
+    height: 181px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 812px;
+    display: block;
+
+    
+   
+}
+.box3{
+    height: 181px;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    font-weight: bolder;
+    color: rgb(47, 0, 80);
+    text-shadow: 1px 2.01px 1.6px purple;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+}
+.box4{
+    height: 181px;
+    width: 200px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(47, 0, 80);
+    text-shadow: 1px 2.01px 1.6px purple;
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 812px;
+    display: block;
+    font-size: 21px;
+
+}
+.rate{
+    font-size: 13px;
+
+
+}
+#submithere{
+background-color: red;
+border-radius: 15px;
+padding: 3px;
+color: rgb(47, 0, 80);
+text-shadow: 1px 2.01px 1.6px purple;
+}
+
+#container3{
+    display: flex;
+    /* margin: 30px auto; */
+    }
+.float{
+    border: 7px solid purple;
+    margin: 30px auto;
+    background-color: green;
+    margin-bottom: 130px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+}
+.title1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+}
+.same{
+    border: 3px solid grey;
+    background-color:khaki;
+    line-height: 40px;
+    margin: 5px;
+    text-align: center;
+    font-style: italic;
+    line-height: 41px;
+    padding-top: 22px;
+    
+}
+.Fruits{
+    
+    float: left;
+    width: 48%;
+    padding-bottom: 41px;
+}
+.Vegetables{
+
+    float:right;
+    width: 47%;
+}
+.Other{
+
+clear: both;
+padding-left: 10px;
+padding-right: 10px;
+margin-bottom: 10px;
+    
+}
